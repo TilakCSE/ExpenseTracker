@@ -1,8 +1,8 @@
 
 # Expense Tracker CLI
 
-A simple command-line application to **log daily expenses**, view summaries, and store them in a file or database.  
-Built with **[Python]** or **[Java]**, this project is perfect for tracking your spending habits while practicing programming fundamentals.
+A simple command-line application to **log daily expenses**, view summaries, and store them in a excel file
+Built with **[Python]**, this project is perfect for tracking your spending habits while practicing programming fundamentals.
 
 ---
 
