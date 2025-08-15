@@ -14,18 +14,14 @@ Built with **[Python]** or **[Java]**, this project is perfect for tracking your
   - Total spent this month
   - Spending breakdown by category
 - **Data Persistence**:
-  - Save expenses to a file (CSV/TXT) or database (SQLite/H2).
-- **Export Data** (optional): Export all expenses as a CSV file.
-- **Color-coded Output** *(optional)* for a better CLI experience.
+  - Save expenses to a file (CSV)
+- **Export Data**: Export all expenses as a CSV file.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language**: Python or Java
-- **Libraries**:
-  - Python: `pandas`, `colorama`
-  - Java: `java.time`, `H2 Database` (optional)
-- **Database**: SQLite or file-based storage
+- **Language**: Python
+- **Libraries** : os, csv
 
 ---
 
@@ -33,8 +29,8 @@ Built with **[Python]** or **[Java]**, this project is perfect for tracking your
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/expense-tracker-cli.git
-cd expense-tracker-cli
+git clone https://github.com/TilakCSE/ExpenseTracker
+cd ExpenseTracker
 ````
 
 ### 2️⃣ Run the Program
@@ -42,7 +38,7 @@ cd expense-tracker-cli
 #### Python
 
 ```bash
-python expense_tracker.py
+python main.py
 ```
 
 ---
@@ -50,11 +46,11 @@ python expense_tracker.py
 ## 📂 Project Structure
 
 ```
-expense-tracker-cli/
+ExpenseTracker/
 │
-├── expense_tracker.py  # Main program
-├── expenses.txt        # Data file
-├── README.md           # Project documentation
+├── main.py            # Main program
+├── expenses.csv       # Data file
+├── README.md          # Project documentation
 ```
 
 ---
@@ -62,28 +58,13 @@ expense-tracker-cli/
 ## 📸 Screenshot
 
 
-![CLI Screenshot](sample_screenshot.png)
+![CLI Screenshot]
+<img width="1338" height="770" alt="image" src="https://github.com/user-attachments/assets/33ad4004-784f-403c-bb8d-484445e4f1e8" />
+<img width="1329" height="421" alt="image" src="https://github.com/user-attachments/assets/d9364743-fdac-44d8-a526-0e4bf3073fd5" />
+
 
 ---
 
-## 📌 Example CLI Output
-
-```text
-===== Expense Tracker =====
-1. Add Expense
-2. View All Expenses
-3. View Summary
-4. Exit
-
-Enter choice: 1
-Date (YYYY-MM-DD): 2025-08-15
-Category: Food
-Amount: 250
-Description: Lunch with friends
-Expense added successfully!
-```
-
----
 
 ## 🤝 Contributing
 
