@@ -29,7 +29,7 @@ Built with **[Python]**, this project is perfect for tracking your spending habi
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/TilakCSE/ExpenseTracker
+git clone https://github.com/TilakCSE/ExpenseTracker.git
 cd ExpenseTracker
 ````
 
